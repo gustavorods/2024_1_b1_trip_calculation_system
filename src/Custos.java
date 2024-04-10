@@ -27,7 +27,7 @@ public class Custos {
     // Método
     public void calcularViagem(Percurso dadosViagem) {
         DecimalFormat duasCasas = new DecimalFormat("0.00");
-        setTotalPercurso((dadosViagem.getKmPercorrida() * dadosViagem.getValorCombustivel()) + dadosViagem.getValorPedagio());
-        JOptionPane.showMessageDialog(null, "Custo total da viagem: " + getTotalPercurso());
+        this.setTotalPercurso((dadosViagem.getKmPercorrida() * dadosViagem.getValorCombustivel()) + dadosViagem.getValorPedagio());
+        JOptionPane.showMessageDialog(null, "Custo total da viagem: " + this.getTotalPercurso());
     }
 }

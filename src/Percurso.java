@@ -52,8 +52,8 @@ public class Percurso {
 
     public void listarPercurso() {
         JOptionPane.showMessageDialog(null, "Suas informações: \n" +
-                "Km rodados: " + getKmPercorrida() + "\n" +
-                "Valor do combustivel: " + getValorCombustivel() + "\n" +
-                "Qual é o valor do pedágio: " + getValorPedagio());
+                "Km rodados: " + this.getKmPercorrida() + "\n" +
+                "Valor do combustivel: " + this.getValorCombustivel() + "\n" +
+                "Qual é o valor do pedágio: " + this.getValorPedagio());
     }
 }
